@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBB7B2A1CA913B5008ECDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B291CA913B5008ECDF1 /* AppDelegate.swift */; };
+		CEBB7B2C1CA913B5008ECDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B2B1CA913B5008ECDF1 /* ViewController.swift */; };
+		CEBB7B2F1CA913B5008ECDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB7B2D1CA913B5008ECDF1 /* Main.storyboard */; };
+		CEBB7B311CA913B5008ECDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB7B301CA913B5008ECDF1 /* Assets.xcassets */; };
+		CEBB7B341CA913B5008ECDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB7B321CA913B5008ECDF1 /* LaunchScreen.storyboard */; };
+		CEBB7B3F1CA913B5008ECDF1 /* BeyyogluApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B3E1CA913B5008ECDF1 /* BeyyogluApplicationTests.swift */; };
+		CEBB7B4A1CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B491CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBB7B3B1CA913B5008ECDF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBB7B1E1CA913B5008ECDF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBB7B251CA913B5008ECDF1;
+			remoteInfo = BeyyogluApplication;
+		};
+		CEBB7B461CA913B5008ECDF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBB7B1E1CA913B5008ECDF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBB7B251CA913B5008ECDF1;
+			remoteInfo = BeyyogluApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBB7B261CA913B5008ECDF1 /* BeyyogluApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeyyogluApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB7B291CA913B5008ECDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBB7B2B1CA913B5008ECDF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBB7B2E1CA913B5008ECDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBB7B301CA913B5008ECDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBB7B331CA913B5008ECDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBB7B351CA913B5008ECDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBB7B3A1CA913B5008ECDF1 /* BeyyogluApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeyyogluApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB7B3E1CA913B5008ECDF1 /* BeyyogluApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyyogluApplicationTests.swift; sourceTree = "<group>"; };
+		CEBB7B401CA913B5008ECDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBB7B451CA913B5008ECDF1 /* BeyyogluApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeyyogluApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB7B491CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyyogluApplicationUITests.swift; sourceTree = "<group>"; };
+		CEBB7B4B1CA913B5008ECDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBB7B231CA913B5008ECDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB7B371CA913B5008ECDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB7B421CA913B5008ECDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBB7B1D1CA913B5008ECDF1 = {
+			isa = PBXGroup;
+			children = (
+				CEBB7B281CA913B5008ECDF1 /* BeyyogluApplication */,
+				CEBB7B3D1CA913B5008ECDF1 /* BeyyogluApplicationTests */,
+				CEBB7B481CA913B5008ECDF1 /* BeyyogluApplicationUITests */,
+				CEBB7B271CA913B5008ECDF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBB7B271CA913B5008ECDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB7B261CA913B5008ECDF1 /* BeyyogluApplication.app */,
+				CEBB7B3A1CA913B5008ECDF1 /* BeyyogluApplicationTests.xctest */,
+				CEBB7B451CA913B5008ECDF1 /* BeyyogluApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBB7B281CA913B5008ECDF1 /* BeyyogluApplication */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB7B291CA913B5008ECDF1 /* AppDelegate.swift */,
+				CEBB7B2B1CA913B5008ECDF1 /* ViewController.swift */,
+				CEBB7B2D1CA913B5008ECDF1 /* Main.storyboard */,
+				CEBB7B301CA913B5008ECDF1 /* Assets.xcassets */,
+				CEBB7B321CA913B5008ECDF1 /* LaunchScreen.storyboard */,
+				CEBB7B351CA913B5008ECDF1 /* Info.plist */,
+			);
+			path = BeyyogluApplication;
+			sourceTree = "<group>";
+		};
+		CEBB7B3D1CA913B5008ECDF1 /* BeyyogluApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB7B3E1CA913B5008ECDF1 /* BeyyogluApplicationTests.swift */,
+				CEBB7B401CA913B5008ECDF1 /* Info.plist */,
+			);
+			path = BeyyogluApplicationTests;
+			sourceTree = "<group>";
+		};
+		CEBB7B481CA913B5008ECDF1 /* BeyyogluApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB7B491CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift */,
+				CEBB7B4B1CA913B5008ECDF1 /* Info.plist */,
+			);
+			path = BeyyogluApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBB7B251CA913B5008ECDF1 /* BeyyogluApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB7B4E1CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplication" */;
+			buildPhases = (
+				CEBB7B221CA913B5008ECDF1 /* Sources */,
+				CEBB7B231CA913B5008ECDF1 /* Frameworks */,
+				CEBB7B241CA913B5008ECDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeyyogluApplication;
+			productName = BeyyogluApplication;
+			productReference = CEBB7B261CA913B5008ECDF1 /* BeyyogluApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBB7B391CA913B5008ECDF1 /* BeyyogluApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB7B511CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplicationTests" */;
+			buildPhases = (
+				CEBB7B361CA913B5008ECDF1 /* Sources */,
+				CEBB7B371CA913B5008ECDF1 /* Frameworks */,
+				CEBB7B381CA913B5008ECDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBB7B3C1CA913B5008ECDF1 /* PBXTargetDependency */,
+			);
+			name = BeyyogluApplicationTests;
+			productName = BeyyogluApplicationTests;
+			productReference = CEBB7B3A1CA913B5008ECDF1 /* BeyyogluApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBB7B441CA913B5008ECDF1 /* BeyyogluApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB7B541CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplicationUITests" */;
+			buildPhases = (
+				CEBB7B411CA913B5008ECDF1 /* Sources */,
+				CEBB7B421CA913B5008ECDF1 /* Frameworks */,
+				CEBB7B431CA913B5008ECDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBB7B471CA913B5008ECDF1 /* PBXTargetDependency */,
+			);
+			name = BeyyogluApplicationUITests;
+			productName = BeyyogluApplicationUITests;
+			productReference = CEBB7B451CA913B5008ECDF1 /* BeyyogluApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBB7B1E1CA913B5008ECDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sonat Ugur";
+				TargetAttributes = {
+					CEBB7B251CA913B5008ECDF1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 23E96B8FEW;
+					};
+					CEBB7B391CA913B5008ECDF1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 23E96B8FEW;
+						TestTargetID = CEBB7B251CA913B5008ECDF1;
+					};
+					CEBB7B441CA913B5008ECDF1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 23E96B8FEW;
+						TestTargetID = CEBB7B251CA913B5008ECDF1;
+					};
+				};
+			};
+			buildConfigurationList = CEBB7B211CA913B5008ECDF1 /* Build configuration list for PBXProject "BeyyogluApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBB7B1D1CA913B5008ECDF1;
+			productRefGroup = CEBB7B271CA913B5008ECDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBB7B251CA913B5008ECDF1 /* BeyyogluApplication */,
+				CEBB7B391CA913B5008ECDF1 /* BeyyogluApplicationTests */,
+				CEBB7B441CA913B5008ECDF1 /* BeyyogluApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBB7B241CA913B5008ECDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB7B341CA913B5008ECDF1 /* LaunchScreen.storyboard in Resources */,
+				CEBB7B311CA913B5008ECDF1 /* Assets.xcassets in Resources */,
+				CEBB7B2F1CA913B5008ECDF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB7B381CA913B5008ECDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB7B431CA913B5008ECDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBB7B221CA913B5008ECDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB7B2C1CA913B5008ECDF1 /* ViewController.swift in Sources */,
+				CEBB7B2A1CA913B5008ECDF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB7B361CA913B5008ECDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB7B3F1CA913B5008ECDF1 /* BeyyogluApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB7B411CA913B5008ECDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB7B4A1CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBB7B3C1CA913B5008ECDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBB7B251CA913B5008ECDF1 /* BeyyogluApplication */;
+			targetProxy = CEBB7B3B1CA913B5008ECDF1 /* PBXContainerItemProxy */;
+		};
+		CEBB7B471CA913B5008ECDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBB7B251CA913B5008ECDF1 /* BeyyogluApplication */;
+			targetProxy = CEBB7B461CA913B5008ECDF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBB7B2D1CA913B5008ECDF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBB7B2E1CA913B5008ECDF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBB7B321CA913B5008ECDF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBB7B331CA913B5008ECDF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBB7B4C1CA913B5008ECDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBB7B4D1CA913B5008ECDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBB7B4F1CA913B5008ECDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeyyogluApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEBB7B501CA913B5008ECDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeyyogluApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEBB7B521CA913B5008ECDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeyyogluApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeyyogluApplication.app/BeyyogluApplication";
+			};
+			name = Debug;
+		};
+		CEBB7B531CA913B5008ECDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeyyogluApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeyyogluApplication.app/BeyyogluApplication";
+			};
+			name = Release;
+		};
+		CEBB7B551CA913B5008ECDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeyyogluApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeyyogluApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEBB7B561CA913B5008ECDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeyyogluApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeyyogluApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBB7B211CA913B5008ECDF1 /* Build configuration list for PBXProject "BeyyogluApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB7B4C1CA913B5008ECDF1 /* Debug */,
+				CEBB7B4D1CA913B5008ECDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBB7B4E1CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB7B4F1CA913B5008ECDF1 /* Debug */,
+				CEBB7B501CA913B5008ECDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEBB7B511CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB7B521CA913B5008ECDF1 /* Debug */,
+				CEBB7B531CA913B5008ECDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEBB7B541CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB7B551CA913B5008ECDF1 /* Debug */,
+				CEBB7B561CA913B5008ECDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBB7B1E1CA913B5008ECDF1 /* Project object */;
+}
