@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE695E551CA92952008B464C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE695E541CA92952008B464C /* SplashViewController.swift */; };
 		CEBB7B2A1CA913B5008ECDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B291CA913B5008ECDF1 /* AppDelegate.swift */; };
-		CEBB7B2C1CA913B5008ECDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B2B1CA913B5008ECDF1 /* ViewController.swift */; };
+		CEBB7B2C1CA913B5008ECDF1 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B2B1CA913B5008ECDF1 /* MainController.swift */; };
 		CEBB7B2F1CA913B5008ECDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB7B2D1CA913B5008ECDF1 /* Main.storyboard */; };
 		CEBB7B311CA913B5008ECDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB7B301CA913B5008ECDF1 /* Assets.xcassets */; };
 		CEBB7B341CA913B5008ECDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB7B321CA913B5008ECDF1 /* LaunchScreen.storyboard */; };
 		CEBB7B3F1CA913B5008ECDF1 /* BeyyogluApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B3E1CA913B5008ECDF1 /* BeyyogluApplicationTests.swift */; };
 		CEBB7B4A1CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B491CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift */; };
+		CEBB7B581CA91496008ECDF1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B571CA91496008ECDF1 /* Product.swift */; };
+		CEBB7B5A1CA915B0008ECDF1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B591CA915B0008ECDF1 /* Category.swift */; };
+		CEBB7B5C1CA91690008ECDF1 /* Shop_Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B5B1CA91690008ECDF1 /* Shop_Product.swift */; };
+		CEBB7B5E1CA916B4008ECDF1 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B5D1CA916B4008ECDF1 /* Shop.swift */; };
+		CEBB7B601CA92301008ECDF1 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B5F1CA92301008ECDF1 /* FlowController.swift */; };
+		CEBB7B621CA9234E008ECDF1 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B611CA9234E008ECDF1 /* DetailController.swift */; };
+		CEBB7B641CA92387008ECDF1 /* ShopStockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B631CA92387008ECDF1 /* ShopStockController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE695E541CA92952008B464C /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		CEBB7B261CA913B5008ECDF1 /* BeyyogluApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeyyogluApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB7B291CA913B5008ECDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEBB7B2B1CA913B5008ECDF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBB7B2B1CA913B5008ECDF1 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		CEBB7B2E1CA913B5008ECDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEBB7B301CA913B5008ECDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBB7B331CA913B5008ECDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		CEBB7B451CA913B5008ECDF1 /* BeyyogluApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeyyogluApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB7B491CA913B5008ECDF1 /* BeyyogluApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyyogluApplicationUITests.swift; sourceTree = "<group>"; };
 		CEBB7B4B1CA913B5008ECDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBB7B571CA91496008ECDF1 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CEBB7B591CA915B0008ECDF1 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CEBB7B5B1CA91690008ECDF1 /* Shop_Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop_Product.swift; sourceTree = "<group>"; };
+		CEBB7B5D1CA916B4008ECDF1 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		CEBB7B5F1CA92301008ECDF1 /* FlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		CEBB7B611CA9234E008ECDF1 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		CEBB7B631CA92387008ECDF1 /* ShopStockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopStockController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +114,15 @@
 			isa = PBXGroup;
 			children = (
 				CEBB7B291CA913B5008ECDF1 /* AppDelegate.swift */,
-				CEBB7B2B1CA913B5008ECDF1 /* ViewController.swift */,
+				CEBB7B2B1CA913B5008ECDF1 /* MainController.swift */,
+				CEBB7B5F1CA92301008ECDF1 /* FlowController.swift */,
+				CEBB7B611CA9234E008ECDF1 /* DetailController.swift */,
+				CEBB7B631CA92387008ECDF1 /* ShopStockController.swift */,
+				CE695E541CA92952008B464C /* SplashViewController.swift */,
+				CEBB7B571CA91496008ECDF1 /* Product.swift */,
+				CEBB7B5D1CA916B4008ECDF1 /* Shop.swift */,
+				CEBB7B5B1CA91690008ECDF1 /* Shop_Product.swift */,
+				CEBB7B591CA915B0008ECDF1 /* Category.swift */,
 				CEBB7B2D1CA913B5008ECDF1 /* Main.storyboard */,
 				CEBB7B301CA913B5008ECDF1 /* Assets.xcassets */,
 				CEBB7B321CA913B5008ECDF1 /* LaunchScreen.storyboard */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBB7B2C1CA913B5008ECDF1 /* ViewController.swift in Sources */,
+				CEBB7B621CA9234E008ECDF1 /* DetailController.swift in Sources */,
+				CEBB7B601CA92301008ECDF1 /* FlowController.swift in Sources */,
+				CEBB7B2C1CA913B5008ECDF1 /* MainController.swift in Sources */,
 				CEBB7B2A1CA913B5008ECDF1 /* AppDelegate.swift in Sources */,
+				CEBB7B581CA91496008ECDF1 /* Product.swift in Sources */,
+				CEBB7B5E1CA916B4008ECDF1 /* Shop.swift in Sources */,
+				CEBB7B5A1CA915B0008ECDF1 /* Category.swift in Sources */,
+				CEBB7B641CA92387008ECDF1 /* ShopStockController.swift in Sources */,
+				CEBB7B5C1CA91690008ECDF1 /* Shop_Product.swift in Sources */,
+				CE695E551CA92952008B464C /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +517,7 @@
 				CEBB7B501CA913B5008ECDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEBB7B511CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +526,7 @@
 				CEBB7B531CA913B5008ECDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEBB7B541CA913B5008ECDF1 /* Build configuration list for PBXNativeTarget "BeyyogluApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +535,7 @@
 				CEBB7B561CA913B5008ECDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

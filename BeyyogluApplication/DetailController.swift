@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailController.swift
 //  BeyyogluApplication
 //
 //  Created by Sonat Ugur on 28/03/16.
@@ -8,18 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+   
 
 }
-
