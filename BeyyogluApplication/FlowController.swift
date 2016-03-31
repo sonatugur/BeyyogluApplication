@@ -10,6 +10,7 @@ import UIKit
 
 class FlowController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -25,7 +26,7 @@ class FlowController: UIViewController, UICollectionViewDataSource, UICollection
     
     var anakategoriID: Int?
     
-    var productList = []
+    var productList = [1,2,3]
     
     
     
@@ -44,49 +45,3 @@ class FlowController: UIViewController, UICollectionViewDataSource, UICollection
     }
 
 }
-/*
-class ViewController2: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
-
-
-
-@IBOutlet weak var collectionView: UICollectionView!
-
-let identifier = "CellIdentifier"
-
-
-
-override func viewDidLoad() {
-
-super.viewDidLoad()
-
-collectionView.dataSource = self
-
-}
-override func didReceiveMemoryWarning() {
-
-super.didReceiveMemoryWarning()
-
-}
-
-func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
-
-{
-
-return 12
-
-}
-
-// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
-
-func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
-
-{
-
-let cell = collectionView.dequeueReusableCellWithReuseIdentifier(identifier, forIndexPath: indexPath) as! UICollectionViewCell
-
-cell.backgroundColor = UIColor.redColor()
-
-return cell
-}
-}
-*/

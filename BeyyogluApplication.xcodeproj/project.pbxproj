@@ -22,6 +22,11 @@
 		CEBB7B601CA92301008ECDF1 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B5F1CA92301008ECDF1 /* FlowController.swift */; };
 		CEBB7B621CA9234E008ECDF1 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B611CA9234E008ECDF1 /* DetailController.swift */; };
 		CEBB7B641CA92387008ECDF1 /* ShopStockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB7B631CA92387008ECDF1 /* ShopStockController.swift */; };
+		CEEA287B1CADAB610067E557 /* SolTarafViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA287A1CADAB610067E557 /* SolTarafViewController.swift */; };
+		CEEDEE411CABCF9B000B836D /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDEE391CABCF9B000B836D /* MMDrawerBarButtonItem.m */; };
+		CEEDEE421CABCF9B000B836D /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDEE3B1CABCF9B000B836D /* MMDrawerController.m */; };
+		CEEDEE431CABCF9B000B836D /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDEE3E1CABCF9B000B836D /* MMDrawerVisualState.m */; };
+		CEEDEE441CABCF9B000B836D /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDEE401CABCF9B000B836D /* UIViewController+MMDrawerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,17 @@
 		CEBB7B5F1CA92301008ECDF1 /* FlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
 		CEBB7B611CA9234E008ECDF1 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		CEBB7B631CA92387008ECDF1 /* ShopStockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopStockController.swift; sourceTree = "<group>"; };
+		CEEA287A1CADAB610067E557 /* SolTarafViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolTarafViewController.swift; sourceTree = "<group>"; };
+		CEEDEE381CABCF9B000B836D /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		CEEDEE391CABCF9B000B836D /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		CEEDEE3A1CABCF9B000B836D /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		CEEDEE3B1CABCF9B000B836D /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		CEEDEE3C1CABCF9B000B836D /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		CEEDEE3D1CABCF9B000B836D /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		CEEDEE3E1CABCF9B000B836D /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		CEEDEE3F1CABCF9B000B836D /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		CEEDEE401CABCF9B000B836D /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		CEEDEE451CABCFC7000B836D /* BeyyogluApplication-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeyyogluApplication-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +129,10 @@
 		CEBB7B281CA913B5008ECDF1 /* BeyyogluApplication */ = {
 			isa = PBXGroup;
 			children = (
+				CEEDEE461CABD01F000B836D /* SideMenuDelegates */,
 				CEBB7B291CA913B5008ECDF1 /* AppDelegate.swift */,
 				CEBB7B2B1CA913B5008ECDF1 /* MainController.swift */,
+				CEEA287A1CADAB610067E557 /* SolTarafViewController.swift */,
 				CEBB7B5F1CA92301008ECDF1 /* FlowController.swift */,
 				CEBB7B611CA9234E008ECDF1 /* DetailController.swift */,
 				CEBB7B631CA92387008ECDF1 /* ShopStockController.swift */,
@@ -147,6 +165,23 @@
 				CEBB7B4B1CA913B5008ECDF1 /* Info.plist */,
 			);
 			path = BeyyogluApplicationUITests;
+			sourceTree = "<group>";
+		};
+		CEEDEE461CABD01F000B836D /* SideMenuDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDEE381CABCF9B000B836D /* MMDrawerBarButtonItem.h */,
+				CEEDEE451CABCFC7000B836D /* BeyyogluApplication-Bridging-Header.h */,
+				CEEDEE391CABCF9B000B836D /* MMDrawerBarButtonItem.m */,
+				CEEDEE3A1CABCF9B000B836D /* MMDrawerController.h */,
+				CEEDEE3B1CABCF9B000B836D /* MMDrawerController.m */,
+				CEEDEE3C1CABCF9B000B836D /* MMDrawerController+Subclass.h */,
+				CEEDEE3D1CABCF9B000B836D /* MMDrawerVisualState.h */,
+				CEEDEE3E1CABCF9B000B836D /* MMDrawerVisualState.m */,
+				CEEDEE3F1CABCF9B000B836D /* UIViewController+MMDrawerController.h */,
+				CEEDEE401CABCF9B000B836D /* UIViewController+MMDrawerController.m */,
+			);
+			name = SideMenuDelegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEDEE421CABCF9B000B836D /* MMDrawerController.m in Sources */,
 				CEBB7B621CA9234E008ECDF1 /* DetailController.swift in Sources */,
+				CEEDEE431CABCF9B000B836D /* MMDrawerVisualState.m in Sources */,
 				CEBB7B601CA92301008ECDF1 /* FlowController.swift in Sources */,
 				CEBB7B2C1CA913B5008ECDF1 /* MainController.swift in Sources */,
+				CEEA287B1CADAB610067E557 /* SolTarafViewController.swift in Sources */,
+				CEEDEE441CABCF9B000B836D /* UIViewController+MMDrawerController.m in Sources */,
 				CEBB7B2A1CA913B5008ECDF1 /* AppDelegate.swift in Sources */,
 				CEBB7B581CA91496008ECDF1 /* Product.swift in Sources */,
 				CEBB7B5E1CA916B4008ECDF1 /* Shop.swift in Sources */,
@@ -293,6 +332,7 @@
 				CEBB7B641CA92387008ECDF1 /* ShopStockController.swift in Sources */,
 				CEBB7B5C1CA91690008ECDF1 /* Shop_Product.swift in Sources */,
 				CE695E551CA92952008B464C /* SplashViewController.swift in Sources */,
+				CEEDEE411CABCF9B000B836D /* MMDrawerBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BeyyogluApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeyyogluApplication/BeyyogluApplication-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -443,10 +486,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BeyyogluApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonatugur.BeyyogluApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeyyogluApplication/BeyyogluApplication-Bridging-Header.h";
 			};
 			name = Release;
 		};

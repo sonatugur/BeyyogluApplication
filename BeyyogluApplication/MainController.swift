@@ -22,6 +22,11 @@ class MainController: UIViewController {
     
     var kategoriID: Int?
     
+    @IBAction func TransitionToSideMenu(sender: AnyObject) {
+        let appDelegate : AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
+    }
+    
     @IBAction func TransitionToFlow1(sender: AnyObject) {
         kategoriID = 1
         performSegueWithIdentifier("anaKategoriSecim", sender: kategoriID)
